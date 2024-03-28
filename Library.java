@@ -96,6 +96,11 @@ public class Library extends Building {
       this.collection.toString();
     }
 
+    public void showOptions() {
+      super.showOptions();
+      System.out.println("\n + addTitle(title)\n + removeTitle\n + checkOut\n + returnBook\n + containsTitle\n + isAvailable\n + printCollection");
+    }
+
 
 
     public static void main(String[] args) {

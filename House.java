@@ -82,6 +82,11 @@ public class House extends Building{
     }
   }
 
+  public void showOptions() {
+    super.showOptions();
+    System.out.println("\n + hasDiningRoom()\n + nResidents()\n + moveIn(name)\n + moveOut(name)\n + isResident(person)");
+  }
+
   public static void main(String[] args) {
     House myHouse = new House("Emily's House", "123 Drury Lane", 3, true);
   }

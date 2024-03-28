@@ -64,6 +64,12 @@ public class Cafe extends Building{
         this.nCups = nCups;
     }
     
+    public void showOptions() {
+        super.showOptions();
+        System.out.println("\n + sellCoffee(coffee)\n + restock(coffee)");
+    }
+
+
     public static void main(String[] args) {
         Cafe myCafe = new Cafe("Lattes of Joy", "122 Drury Lane", 1, 100, 100, 100, 100);
     }
