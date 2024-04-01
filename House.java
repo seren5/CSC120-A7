@@ -87,6 +87,10 @@ public class House extends Building{
     System.out.println("\n + hasDiningRoom()\n + nResidents()\n + moveIn(name)\n + moveOut(name)\n + isResident(person)");
   }
 
+  public void goToFloor(boolean hasElevator, int floorNum) {
+    super.goToFloor(floorNum);
+  }
+
   public static void main(String[] args) {
     House myHouse = new House("Emily's House", "123 Drury Lane", 3, true);
   }

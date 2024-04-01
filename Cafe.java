@@ -9,6 +9,8 @@ public class Cafe extends Building{
     private int nCreams; // The number of "splashes" of cream remaining in inventory
     private int nCups; // The number of cups remaining in inventory
 
+    private boolean hasElevator; // Whether or not the Cafe has an elevator
+
     
     /**
      * Creates a Cafe with name, an address, a number of floors, a number of coffee ounces, a number of sugar packets, a number of creams, and a number of cups
@@ -67,6 +69,10 @@ public class Cafe extends Building{
     public void showOptions() {
         super.showOptions();
         System.out.println("\n + sellCoffee(coffee)\n + restock(coffee)");
+    }
+
+    public void goToFloor(boolean hasElevator, int floorNum) {
+        super.goToFloor(floorNum);
     }
 
 

@@ -101,8 +101,8 @@ public class Library extends Building {
       System.out.println("\n + addTitle(title)\n + removeTitle\n + checkOut\n + returnBook\n + containsTitle\n + isAvailable\n + printCollection");
     }
 
-    public void goToFloor(int floorNum) {
-      
+    public void goToFloor(boolean hasElevator, int floorNum) {
+      super.goToFloor(floorNum);
     }
 
     public static void main(String[] args) {
