@@ -101,7 +101,9 @@ public class Library extends Building {
       System.out.println("\n + addTitle(title)\n + removeTitle\n + checkOut\n + returnBook\n + containsTitle\n + isAvailable\n + printCollection");
     }
 
-
+    public void goToFloor(int floorNum) {
+      
+    }
 
     public static void main(String[] args) {
       Library myLibrary = new Library("Local Library", "124 Drury Lane", 2);
