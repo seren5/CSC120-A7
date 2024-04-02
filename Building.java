@@ -4,7 +4,7 @@ public class Building {
     protected String address;
     protected int nFloors;
     protected int activeFloor = -1; // Default value indicating we are not inside this building
-    protected boolean hasElevator;
+    protected boolean hasElevator; // Whether or not the building has an elevator
 
     /* Default constructor */
     public Building() {

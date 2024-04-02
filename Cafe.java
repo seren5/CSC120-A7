@@ -9,8 +9,6 @@ public class Cafe extends Building{
     private int nCreams; // The number of "splashes" of cream remaining in inventory
     private int nCups; // The number of cups remaining in inventory
 
-    private boolean hasElevator; // Whether or not the Cafe has an elevator
-
     
     /**
      * Creates a Cafe with name, an address, a number of floors, a number of coffee ounces, a number of sugar packets, a number of creams, and a number of cups
