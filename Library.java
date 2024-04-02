@@ -19,6 +19,10 @@ public class Library extends Building {
       System.out.println("You have built a library: 📖");
     }
   
+    public Library(){
+      this("Neilson Library", "7 Neilson Drive Northampton, MA 01063", 4);
+    }
+
     /**
      * Updates Hashtable containing collection with the added title
      */

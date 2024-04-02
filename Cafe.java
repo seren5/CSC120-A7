@@ -53,6 +53,13 @@ public class Cafe extends Building{
     }
 
     /**
+     * Default amount for selling coffee if there's no size specified
+     */
+     public void sellCoffee(){
+        sellCoffee(6, 2, 3);
+     }
+
+    /**
      * Restocks inventory
      * @param nCoffeeOunces
      * @param nSugarPackets

@@ -77,6 +77,8 @@ public class Building {
             }
             System.out.println("You are now on floor #" + floorNum + " of " + this.name);
             this.activeFloor = floorNum;
+        } else{
+            System.out.println("There is no elevator in this building.");
         }
     }
 
